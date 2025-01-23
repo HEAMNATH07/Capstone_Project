@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for Parking-service" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+        </processorPath>
+        <module name="Parking-service" />
+        <module name="EurekaRegistry" />
+        <module name="User-service" />
+        <module name="WorkSpace" />
+        <module name="Task" />
+        <module name="Event-service" />
+        <module name="Cloud-Gateway" />
+        <module name="Vendor-service" />
+        <module name="Employee-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Cloud-Gateway" options="-parameters" />
+      <module name="Employee-service" options="-parameters" />
+      <module name="EurekaRegistry" options="-parameters" />
+      <module name="Event-service" options="-parameters" />
+      <module name="Parking-service" options="-parameters" />
+      <module name="Task" options="-parameters" />
+      <module name="User-service" options="-parameters" />
+      <module name="Vendor-service" options="-parameters" />
+      <module name="WorkSpace" options="-parameters" />
+    </option>
+  </component>
+</project>

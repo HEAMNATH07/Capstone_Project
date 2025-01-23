@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Backend/Task/Task/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/WorkSpace/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/User-service/User-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/Cloud Gateway/Cloud-Gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/Event-service/Event-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/EurekaRegistry/EurekaRegistry/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/Vendor-service/Vendor-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/Employee-service/Employee-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/Parking-service (1)/Parking-service/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_23" default="true" project-jdk-name="openjdk-23" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

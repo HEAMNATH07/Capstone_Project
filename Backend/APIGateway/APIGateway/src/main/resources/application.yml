@@ -1,0 +1,48 @@
+spring:
+  application:
+    name: APIGATEWAY
+  cloud:
+    gateway:
+      routes:
+        - id: vendorservice
+          uri: lb://VENDORSERVICE
+          predicates:
+            - Path=/vendor/**
+          filters:
+            - AuthenticationFilter
+        - id: userservice
+          uri: lb://USER-SERVICE
+          predicates:
+            - Path=/user/**
+          filters:
+            - AuthenticationFilter
+        - id: eventservice
+          uri: lb://EVENT-SERVICE
+          predicates:
+            - Path=/event/**
+          filters:
+            - AuthenticationFilter
+        - id: task
+          uri: lb://TASKS
+          predicates:
+            - Path=/tasks/**
+          filters:
+            - AuthenticationFilter
+        - id: employeeservice
+          uri: lb://EMPLOYEE-SERVICE
+          predicates:
+            - Path=/employee/**
+          filters:
+            - AuthenticationFilter
+        - id: workspaceservice
+          uri: lb://WORKSPACE-SERVICE
+          predicates:
+            - Path=/workspaces/**
+          filters:
+            - AuthenticationFilter
+        - id: parkingservice
+          uri: lb://PARKINGSLOT-SERVICE
+          predicates:
+            - Path=/parking/**
+          filters:
+            - AuthenticationFilter

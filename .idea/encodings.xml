@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Backend/Cloud Gateway/Cloud-Gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Backend/Employee-service/Employee-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Backend/EurekaRegistry/EurekaRegistry/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Backend/Event-service/Event-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Backend/Parking-service (1)/Parking-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Backend/Task/Task/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Backend/User-service/User-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Backend/Vendor-service/Vendor-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Backend/WorkSpace/src/main/java" charset="UTF-8" />
+  </component>
+</project>
