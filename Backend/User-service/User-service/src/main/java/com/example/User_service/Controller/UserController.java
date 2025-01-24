@@ -1,5 +1,7 @@
 package com.example.User_service.Controller;
 
+import com.example.User_service.DTO.AuthResponse;
+import com.example.User_service.DTO.EventUserRequest;
 import com.example.User_service.Model.EventUser;
 import com.example.User_service.Service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
